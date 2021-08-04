@@ -1,0 +1,39 @@
+.company{
+	padding: 135px 0;
+}
+
+.company__logo{
+	position: relative;
+	left: 40%;
+	display: flex;
+	flex: 0 0 0 0 20%;
+	max-width: 20%;
+	justify-content: space-around;
+	width: 100%;
+    z-index: 1;
+ 	transform: translate3d(-50%, -50%);
+}
+
+.logo__imgs{
+    display: flex;
+    justify-content: space-around;
+    line-height: 70px;
+    opacity: .2;
+    padding:30px;
+}
+
+.logo__imgs:hover{
+	cursor: pointer;
+	opacity: 1;
+}
+
+
+.logo__img{
+    width: auto;
+    text-align: center;
+    display: block;
+    margin: auto;
+    line-height: 70px;
+    vertical-align: middle;
+    border-style: none;
+}

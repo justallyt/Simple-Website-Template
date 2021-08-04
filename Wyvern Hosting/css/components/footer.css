@@ -1,0 +1,136 @@
+.footer{
+	padding: 120px 0px 120px;
+    background: #0e1424;
+    color: #797979;
+    font-family: "Roboto",sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.667;
+    text-align: left;
+}
+
+
+.topfooter{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 2fr;
+	margin-bottom: 100px;
+
+}
+
+.topfooter__head{
+	position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+}
+
+.topfooter__head h5{
+	font-family: "Rajdhani",sans-serif;
+	line-height: 1.25;
+	color: #fff;
+    font-size: 22px;
+    margin-bottom: 25px;
+    font-weight: 600;
+}
+
+.topfooter__head li{
+	margin-bottom: 10px;
+}
+
+.topfooter__link{
+	color: #797979;
+	text-decoration: none;
+    line-height: 1.25;
+}
+
+.topfooter_newsletters{
+	display: flex;
+	justify-content: flex-start;
+	align-content: flex-start;
+	text-align: left;
+}
+
+.topfooter__newsletters h5{
+	font-family: "Rajdhani",sans-serif;
+	line-height: 1.25;
+	color: #fff;
+    font-size: 22px;
+    margin-bottom: 25px;
+    font-weight: 600;
+}
+
+
+
+.topfooter__heading{
+	color: #7b838a;
+	margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.topfooter__container{
+	display: flex;
+	justify-content: flex-start;
+	margin-top: 25px;
+	margin-bottom: 10px;
+}
+
+.topfooter__input{
+    border: none;
+    width: 67% !important;
+    font-weight: 400;
+    background: rgba(255,255,255,0.2);
+    color: #fff;
+    padding-left: 20px;
+    border-radius: 0;
+    font-size: 14px;
+    padding: 10px;
+
+}
+
+.topfooter__button{
+	cursor: pointer;
+    font-family: "Roboto",sans-serif;
+    color: #3a414e;
+    padding: 8px 20px;
+    font-size: 14px;
+    background: #fff;
+    font-weight: 500;
+    position: relative;
+    margin-left: -50px;
+}
+
+
+.bottomfooter{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 70px;
+
+}
+
+.bottomfooter__text{
+	font-family: "Roboto",sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.667;
+	width: 100%;
+	font-size: .875rem;
+    line-height: 1.25rem;
+    color: #797979;
+	text-align: left;
+}
+
+.bottomfooter__text-bright{
+	color: #ffffffb3;
+	font-weight: 700;
+}
+
+.bottomfooter__text-bright:hover{
+	color: #fff;
+}
+
+.bottomfooter__socialnetwork{
+	cursor: pointer;
+	width: 30%;
+	text-align: right;
+}
+

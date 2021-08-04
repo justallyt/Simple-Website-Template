@@ -1,0 +1,59 @@
+.main{
+	background-image: url("https://colorlib.com/preview/theme/parason/img/banner/banner-bg.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 100px;
+	background-color: #22195b;
+	height: max-content;
+}
+
+.main__wrapper{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	flex-wrap: wrap;
+}
+
+.main__img{
+	width: 100%;
+	margin: 20px auto;
+}
+
+.main__text{
+	color:white;
+	font-family: 'Rajdhani', sans-serif;
+	text-align: left;
+}
+
+.main__title{
+	margin: 22px 0px;
+	font-size: 46px;
+	font-weight: 700;
+}
+.main__subtitle{
+	font-size: 16px;
+}
+
+
+.main__button{
+	font-family: 'roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #fff;
+    color: #21146a;
+    margin: 25px;
+    padding: 15px 30px;
+    border-radius: 30px;
+    border: 1px solid #22195b;
+    transition: all .4s;
+}	
+
+.main__button:hover{
+	background-color: #22195b;
+	color: white;
+	border: 1px solid white;
+}
+
+@media(max-width: 10)

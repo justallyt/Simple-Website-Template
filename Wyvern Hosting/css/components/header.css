@@ -1,0 +1,104 @@
+.header {
+	font-family: 'Rajdhani', sans-serif;
+    width: 100%;
+    background-color: #412fb3;
+    margin: 0 auto;
+	padding: 20px,30px;     
+	z-index: 0;
+}
+
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: #412fb3;
+	z-index: 1020;
+}
+
+.navBar {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    width: 70%;
+}
+
+.navbar__item a{
+    line-height: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+.navbar__item a:hover{
+    color: #b6b6b6;
+}
+
+.navbar__item-active a{
+    color: #b6b6b6;
+}
+
+.navbar__item:not(:last-child) {
+    margin-right: 50px;
+}
+
+.menu_img {
+    width: 0px;
+}
+
+.menu {
+    max-height: 0px;
+    overflow: hidden;
+    transition: all .5s;
+}
+
+.menu__navbar {
+    margin: 10px;
+}
+
+.menu__item {
+    width: 100%;
+    padding-bottom: 5px;
+    border-bottom: 1px solid grey;
+}
+
+.menu__item:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.menu__item a {
+	color: #fff;
+    line-height: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+.menu__item-active a {
+    color: #b6b6b6;
+}
+
+@media screen and (max-width: 1100px) {
+    .navBar {
+        width: 60%;
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+	.menu{
+		overflow-y: scroll;
+		height: 80vh;
+	}
+    .navBar {
+        display: none;
+    }
+    .header__button {
+        display: none;
+    }
+    .menu_img {
+        width: 30px;
+    }   
+}

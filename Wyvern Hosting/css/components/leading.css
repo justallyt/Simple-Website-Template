@@ -1,0 +1,37 @@
+.leading{
+	background: #faf9ff;
+	padding: 100px 0;
+	color: #797979;
+    font-family: "Roboto",sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.667;
+}
+
+.leading__wrapper{
+	align-items: center;
+	margin-right: 0;
+	margin-left: 0;
+	display: flex;
+	flex-wrap: wrap;
+	text-align: left;
+}
+
+.article{
+	flex: 0 41.666667%;
+    max-width: 41.666667%;
+}
+
+.article__title{
+	margin-bottom: 20px;
+}
+
+.article__subtitle{
+	margin-bottom: 38px;
+}
+
+.leading__imgs{
+	flex: 0  58.333333%;
+    max-width: 58.333333%;
+    width: 647.5px;
+}

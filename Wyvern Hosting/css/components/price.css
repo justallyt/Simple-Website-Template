@@ -1,0 +1,97 @@
+.price{
+	margin: 135px 0;
+	color: #797979;
+    font-family: "Roboto",sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.667;
+}
+
+.price__intro{
+	text-align: center!important;
+	max-width: 630px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 85px;
+    padding-bottom: 85px;
+}
+
+.price__parts{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.price__part{
+	display: flex;
+	flex: 0 0 28%;
+    max-width: 28%;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    background: #faf9ff;
+    border-radius: 3px;
+    border: 0;
+    text-align: center!important;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.price__part:hover {
+	cursor: pointer;
+	background-color: #fff;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.18), 0 10px 10px rgba(0,0,0,0.15);
+}
+
+.price__part:hover .btn-white{
+    cursor: pointer;
+	color: #fff;
+	background-color: rgb(33, 20, 106);
+}
+
+.price__header{
+	border-bottom: 1px solid #ebebeb;
+    padding: 40px 7px;
+}
+
+.price__header h4{
+	font-size: 27px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    font-family: "Rajdhani",sans-serif;
+    color: #3a414e;
+    line-height: 1.25;
+}
+
+.price__header p{
+	margin-top: 0;
+    margin-bottom: 27px;
+
+}
+
+.price__header h1{
+	font-family: "Roboto";
+	color: #3a414e;
+	font-weight: 700;
+    font-size: 60px;
+}
+
+.price__plan{
+	padding: 30px 8px 25px 8px;
+    border-bottom: 1px solid #ebebeb;
+    list-style-type: none;
+    margin: 0;
+}
+
+.price__plan li{
+	display: list-item;
+    margin-bottom: 12px;
+}
+
+.price__button{
+	    padding: 45px 0;
+}
